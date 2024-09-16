@@ -1,7 +1,5 @@
 # Field Finder - Field Booking & Player Matching
 
-# Field Finder - Field Booking & Player Matching
-
 **Field Finder** is a web application designed to simplify the process of booking sports fields and matching players for games based on skill level. The platform enables users to find available field slots, filter fields based on location, pricing, and sport, and connect with players of similar skill levels.
 
 ## Features
