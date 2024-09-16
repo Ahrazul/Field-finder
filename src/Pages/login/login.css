@@ -1,0 +1,93 @@
+.login_page_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.login_wrapper {
+    padding-bottom: 10px;
+    padding: 50px;
+    padding-top: 10px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 20vw;
+    height: 50vh; */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.login_wrapper button {
+    cursor: pointer;
+}
+
+.login_wrapper input {
+    background-color: #FAFAFA;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login_email_input {
+    margin-bottom: 3%;
+}
+
+.login_button button{
+    background-color: #87986A;
+    border: 1px solid #87986A;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.login_button button:hover {
+    background-color: #718355;
+}
+
+hr {
+    width: 100%;
+}
+
+.login_button button::after {
+    content: ' ';
+    display: inline-block;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    height: 6px;
+    width: 6px;
+    transform: rotate(-45deg);
+    margin-left: 3px;
+}
+
+.login_password_input {
+    margin-bottom: 1%;
+}
+
+.login_route_registration button,
+.forget_password_button button {
+    background-color: white;
+    border: none;
+}
+
+.forget_password_button{
+    text-align: end;
+}
+
+.login_route_registration button,
+.forget_password_button button {
+    color: blue;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+
+.login_route_registration button:hover,
+.forget_password_button button:hover {
+    color: blueviolet;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(morgenaregular-vnvel.ttf);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar button {
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar_center_items button {
+  position: relative; 
+  padding: 10px 20px; 
+  font-size: 15px; 
+  cursor: pointer; 
+  color: black; 
+  background: none; 
+  border: none; 
+  outline: none; 
+}
+  
+.navbar_center_items button::after {
+  content: ''; 
+  position: absolute;
+  left: 50%; 
+  bottom: 0; 
+  height: 1px; 
+  width: 0;
+  background: black;
+  transition: width 0.5s ease, transform 0.5s ease; 
+  transform: translateX(-50%); 
+}
+  
+.navbar_center_items button:hover::after {
+  width: 70%;
+  transform: translateX(-50%); 
+}
+
+.navbar_end_items {
+  display: flex;
+  gap: 1rem;
+}
+
+.cart_button {
+  position: relative;
+  top: 2.5px;
+}

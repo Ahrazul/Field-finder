@@ -1,0 +1,65 @@
+.registration_rows {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 3%;
+}
+
+.registration_page_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.registration_wrapper {
+    padding-bottom: 10px;
+    padding: 50px;
+    padding-top: 10px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.registration_wrapper input {
+    background-color: #FAFAFA;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.registration_button button{
+    background-color: #87986A;
+    border: 1px solid #87986A;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.registration_button button:hover {
+    background-color: #718355;
+}
+
+.registration_button button::after {
+    content: ' ';
+    display: inline-block;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    height: 6px;
+    width: 6px;
+    transform: rotate(-45deg);
+    margin-left: 3px;
+}
+
+.login_route_registration button {
+    cursor: pointer;
+}
